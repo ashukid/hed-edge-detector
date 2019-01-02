@@ -1,0 +1,1 @@
+python edge.py --input staticmap.png --prototxt deploy.prototxt --caffemodel hed_pretrained_bsds.caffemodel --width 300 --height 300
