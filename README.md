@@ -2,8 +2,10 @@
 
 Command to run the edge detection model on video
 
-    python edge.py --input video.mp4 --prototxt deploy.prototxt --caffemodel hed_pretrained_bsds.caffemodel --width 300 --     height 300
+    python edge.py --input video.mp4 --prototxt deploy.prototxt --caffemodel hed_pretrained_bsds.caffemodel 
+    --width 300 --height 300
 
 Command to run the edge detection model on image
 
-    python edge_detector.py --input image.png --prototxt deploy.prototxt --caffemodel hed_pretrained_bsds.caffemodel --width 300 --     height 300 
+    python edge_detector.py --input image.png --prototxt deploy.prototxt --caffemodel hed_pretrained_bsds.caffemodel
+    --width 300 --height 300 
